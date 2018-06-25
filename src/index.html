@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+	<div class="header">
+		<div class="topbar">
+			<div class="info_box">
+				<p class="left_info">你好,<span id="customerName">无名小海豚</span>欢迎来到海豚村 <a href="#">关于青岛物流影响通知</a></p>
+				<div class="right_info">
+					<ul>
+						<li><a href="#">我的订单</a></li>
+						<li class="topbar_sep">|</li>
+						<li class="user_center"><a href="#">用户中心</a>
+							<ul class="ddmenu">
+								<li class="top_item"><a href="#">用户中心</a></li>
+								<li class="item"><a href="#">个人信息</a></li>
+								<li class="item"><a href="#">海豚币</a></li>
+								<li class="item"><a href="#">优惠券</a></li>
+								<li class="item"><a href="#">退出登录</a></li>
+							</ul>
+						</li>
+						<li class="topbar_sep">|</li>
+						<li><a href="#">手机版</a></li>
+						<li class="topbar_sep">|</li>
+						<li><a href="#"></a>关注</li>
+						<li class="topbar_sep">|</li>
+						<li><a href="#"></a>在线客服</li>
+						<li class="topbar_sep">|</li>
+						<li><a href="#">消费者告知书</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header_center">
+			<div class="grid_all">
+				<div class="left_logo">
+					<a href="/index.html" class="logo"></a>
+				</div>
+				<a href="#" class="merit" title="服务承诺"></a>
+				<form id="search_form">
+					<div class="header_search">
+						<div class="place_holder">搜“面膜”试试，新品上线，快来拔草</div>
+						<input id="search" type="text" name="q" value="" class="text_input">
+						<input type="submit" title="搜索" class="btn_submit" value="搜索">
+        				<div id="search_autocomplete" class="search_autocomplete"></div>
+					</div>
+				</form>
+				<div class="shop_cart">
+					<ul>
+						<li>
+							<a href="/html/cart.html">购物车
+							<b id="cartCount">0</b></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="navigation">
+			<div class="grid-all">
+				<div class="kind_drop">
+					<h3><i class="icon icon-list">全部商品分类</i></h3>
+					<ul class="s-menu" id="s-menu">
+						<li class="parent">
+							<div class="p-menu">
+								<h2 class="myyp">
+									<i class="icon icon-myyp"></i>
+									<a href="#">母婴用品</a>
+								</h2>
+								<ul class="child">
+									<li class="dib"><a href="#">配方奶粉</a></li>
+									<li class="dib"><a href="#">营养辅食</a></li>
+									<li class="dib"><a href="#">洗护用品</a></li>
+								</ul>
+							</div>
+							<div class="hidepop">
+								<div class="submenu-list">
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">奶粉辅食</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">配方奶粉</a>
+												<a href="#" class="submenu-link">特殊奶粉</a>
+												<a href="#" class="submenu-link">羊奶粉</a>
+												<a href="#" class="submenu-link">米粉/菜粉</a>
+												<a href="#" class="submenu-link">果泥/果汁</a>
+												<a href="#" class="submenu-link">菜泥/肉泥</a>
+												<a href="#" class="submenu-link">面条/粥</a>
+												<a href="#" class="submenu-link">通心粉</a>
+												<a href="#" class="submenu-link">宝宝零食</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">喂养用品</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">奶瓶奶嘴</a>
+												<a href="#" class="submenu-link">吸奶/储奶</a>
+												<a href="#" class="submenu-link">安抚用品</a>
+												<a href="#" class="submenu-link">水壶水杯</a>
+												<a href="#" class="submenu-link">碗盘叉勺</a>
+												<a href="#" class="submenu-link">围兜</a>
+												<a href="#" class="submenu-link">卫生消毒</a>
+												<a href="#" class="submenu-link">磨牙饼干</a>
+												<a href="#" class="submenu-link">乳垫</a>
+											</dd>
+										</dl>
+									</div>
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">洗护用品</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">耳温枪</a>
+												<a href="#" class="submenu-link">宝宝洗浴</a>
+												<a href="#" class="submenu-link">宝宝护肤</a>
+												<a href="#" class="submenu-link">宝宝梳子</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">妈妈专区</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">备孕营养</a>
+												<a href="#" class="submenu-link">孕期营养</a>
+												<a href="#" class="submenu-link">产后恢复</a>
+												<a href="#" class="submenu-link">妈妈营养</a>
+												<a href="#" class="submenu-link">孕妈美容</a>
+											</dd>
+										</dl>
+									</div>
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">婴幼营养</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">DHA/鱼油</a>
+												<a href="#" class="submenu-link">维他命/矿物质</a>
+												<a href="#" class="submenu-link">牛初乳</a>
+												<a href="#" class="submenu-link">乳糖酶</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">儿童玩具</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">毛绒玩具</a>
+												<a href="#" class="submenu-link">其他</a>
+											</dd>
+										</dl>
+									</div>
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">宝宝安全</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">安全监护</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">尿裤湿巾</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">纸尿裤</a>
+												<a href="#" class="submenu-link">湿巾</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="sub-side">
+									<a href="#" class="single">
+										<img src="/img/muyin160513.jpg">
+									</a>
+									<div class="trademark">
+										<h3 class="trademark-title">
+											<i class="line-left"></i>
+											<i class="line-right"></i>
+											<span>热门品牌</span>
+										</h3>
+										<div class="trademark-list">
+											<a href="#">
+												<img src="/img/MYYP_01160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/MYYP_02160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/MYYP_03160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/MYYP_04160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/MYYP_05160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/MYYP_06160513.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="parent">
+							<div class="p-menu">
+								<h2 class="yybj">
+									<i class="icon icon-yybj"></i>
+									<a href="#">营养保健</a>
+								</h2>
+								<ul class="child">
+									<li class="dib"><a href="#">儿童营养</a></li>
+									<li class="dib"><a href="#">德国双心</a></li>
+									<li class="dib"><a href="#">美容养颜</a></li>
+								</ul>
+							</div>
+							<div class="hidepop">
+								<div class="submenu-list">
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">营养健康</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">调节免疫</a>
+												<a href="#" class="submenu-link">调节三高</a>
+												<a href="#" class="submenu-link">肠胃养护</a>
+												<a href="#" class="submenu-link">缓解疲劳</a>
+												<a href="#" class="submenu-link">美容养颜</a>
+												<a href="#" class="submenu-link">减肥塑身</a>
+												<a href="#" class="submenu-link">肝肾养护</a>
+												<a href="#" class="submenu-link">改善睡眠</a>
+												<a href="#" class="submenu-link">骨骼健康</a>
+												<a href="#" class="submenu-link">明目益智</a>
+												<a href="#" class="submenu-link">抗氧化/抗衰老</a>
+												<a href="#" class="submenu-link">强身壮阳</a>
+												<a href="#" class="submenu-link">心脑保护</a>
+												<a href="#" class="submenu-link">男女备孕</a>
+												<a href="#" class="submenu-link">儿童营养</a>
+												<a href="#" class="submenu-link">孕妇营养</a>
+												<a href="#" class="submenu-link">运动营养</a>
+												<a href="#" class="submenu-link">外用止痛消炎</a>
+												<a href="#" class="submenu-link">鼻腔护理</a>
+												<a href="#" class="submenu-link">缓压安神</a>
+												<a href="#" class="submenu-link">泌尿道健康</a>
+												<a href="#" class="submenu-link">肌肉神经保健</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">营养成分</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">维他命/矿物质</a>
+												<a href="#" class="submenu-link">蛋白质</a>
+												<a href="#" class="submenu-link">深海鱼油</a>
+												<a href="#" class="submenu-link">葡萄籽</a>
+												<a href="#" class="submenu-link">番茄红素</a>
+												<a href="#" class="submenu-link">螺旋藻</a>
+												<a href="#" class="submenu-link">叶酸</a>
+												<a href="#" class="submenu-link">辅酶Q10</a>
+												<a href="#" class="submenu-link">玛咖</a>
+												<a href="#" class="submenu-link">蜂蜜蜂胶</a>
+												<a href="#" class="submenu-link">胶原蛋白</a>
+												<a href="#" class="submenu-link">大豆异黄酮/卵磷脂</a>
+												<a href="#" class="submenu-link">膳食纤维</a>
+												<a href="#" class="submenu-link">Omega-3</a>
+												<a href="#" class="submenu-link">牛初乳</a>
+												<a href="#" class="submenu-link">鱼肝油</a>
+												<a href="#" class="submenu-link">维骨素</a>
+												<a href="#" class="submenu-link">玻尿酸</a>
+												<a href="#" class="submenu-link">蔓越莓</a>
+												<a href="#" class="submenu-link">姜黄素</a>
+											</dd>
+										</dl>
+									</div>
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">保健器械</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">血压计</a>
+												<a href="#" class="submenu-link">血糖仪</a>
+												<a href="#" class="submenu-link">脂肪显示器</a>
+												<a href="#" class="submenu-link">体温计</a>
+												<a href="#" class="submenu-link">护理机</a>
+												<a href="#" class="submenu-link">药膏/贴片</a>
+												<a href="#" class="submenu-link">口腔护理</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">救急卫生</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">创口贴/绷带</a>
+												<a href="#" class="submenu-link">蚊虫叮咬</a>
+												<a href="#" class="submenu-link">损伤修复</a>
+												<a href="#" class="submenu-link">家庭药箱</a>
+											</dd>
+										</dl>
+									</div>
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">适用人群</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">婴幼儿</a>
+												<a href="#" class="submenu-link">儿童</a>
+												<a href="#" class="submenu-link">成年男性</a>
+												<a href="#" class="submenu-link">成年女性</a>
+												<a href="#" class="submenu-link">孕妇</a>
+												<a href="#" class="submenu-link">中老年</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="sub-side">
+									<a href="#" class="single">
+										<img src="/img/yinyang170314.jpg">
+									</a>
+									<div class="trademark">
+										<h3 class="trademark-title">
+											<i class="line-left"></i>
+											<i class="line-right"></i>
+											<span>热门品牌</span>
+										</h3>
+										<div class="trademark-list">
+											<a href="#">
+												<img src="/img/YYBJ_01160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/YYBJ_02160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/YYBJ_03160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/YYBJ_04160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/YYBJ_05160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/YYBJ_06160513.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="parent">
+							<div class="p-menu">
+								<h2 class="mryz">
+									<i class="icon icon-mryz"></i>
+									<a href="#">美容药妆</a>
+								</h2>
+								<ul class="child">
+									<li class="dib"><a href="#">卸妆洁面</a></li>
+									<li class="dib"><a href="#">补水保湿</a></li>
+									<li class="dib"><a href="#">个人彩妆</a></li>
+								</ul>
+							</div>
+							<div class="hidepop">
+								<div class="submenu-list">
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">面部护理</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">卸妆洁面</a>
+												<a href="#" class="submenu-link">去角质/磨砂</a>
+												<a href="#" class="submenu-link">爽肤水/补水喷雾</a>
+												<a href="#" class="submenu-link">精华</a>
+												<a href="#" class="submenu-link">乳液</a>
+												<a href="#" class="submenu-link">面霜</a>
+												<a href="#" class="submenu-link">眼霜</a>
+												<a href="#" class="submenu-link">润唇膏</a>
+												<a href="#" class="submenu-link">面膜</a>
+												<a href="#" class="submenu-link">抗痘消炎</a>
+												<a href="#" class="submenu-link">防晒/隔离/BB霜</a>
+												<a href="#" class="submenu-link">护肤套装/礼盒装</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">个人彩妆</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">妆前乳</a>
+												<a href="#" class="submenu-link">粉底/粉饼</a>
+												<a href="#" class="submenu-link">散粉/蜜粉</a>
+												<a href="#" class="submenu-link">遮瑕膏/BB霜</a>
+												<a href="#" class="submenu-link">眼影</a>
+												<a href="#" class="submenu-link">眼线笔/眼线液</a>
+												<a href="#" class="submenu-link">睫毛膏</a>
+												<a href="#" class="submenu-link">唇膏/唇蜜</a>
+												<a href="#" class="submenu-link">眉笔/眉粉</a>
+												<a href="#" class="submenu-link">美妆小工具</a>
+											</dd>
+										</dl>
+									</div>
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">身体护理</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">身体乳/霜</a>
+												<a href="#" class="submenu-link">手/足护理</a>
+												<a href="#" class="submenu-link">抑汗走珠</a>
+												<a href="#" class="submenu-link">身体磨砂</a>
+												<a href="#" class="submenu-link">按摩油</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">男士护理</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">男士洗浴</a>
+												<a href="#" class="submenu-link">男士护肤</a>
+												<a href="#" class="submenu-link">止汗除味</a>
+												<a href="#" class="submenu-link">剃须用品</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="sub-side">
+									<a href="#" class="single">
+										<img src="/img/meizhuang170309.jpg ">
+									</a>
+									<div class="trademark">
+										<h3 class="trademark-title">
+											<i class="line-left"></i>
+											<i class="line-right"></i>
+											<span>热门品牌</span>
+										</h3>
+										<div class="trademark-list">
+											<a href="#">
+												<img src="/img/MRYZ_01160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/MRYZ_02160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/MRYZ_03160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/MRYZ_04160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/MRYZ_05160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/MRYZ_06160513.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="parent">
+							<div class="p-menu">
+								<h2 class="grhl">
+									<i class="icon icon-grhl"></i>
+									<a href="#">个人护理</a>
+								</h2>
+								<ul class="child">
+									<li class="dib"><a href="#">洗发护发</a></li>
+									<li class="dib"><a href="#">沐浴用品</a></li>
+									<li class="dib"><a href="#">牙膏</a></li>
+								</ul>
+							</div>
+							<div class="hidepop">
+								<div class="submenu-list">
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">沐浴用品</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">沐浴露</a>
+												<a href="#" class="submenu-link">沐浴皂</a>
+												<a href="#" class="submenu-link">浴盐</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">洗发护发</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">洗发水</a>
+												<a href="#" class="submenu-link">护发素</a>
+												<a href="#" class="submenu-link">发膜</a>
+												<a href="#" class="submenu-link">精油/护发膏</a>
+												<a href="#" class="submenu-link">造型</a>
+											</dd>
+										</dl>
+									</div>
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">口腔护理</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">牙膏/牙粉</a>
+												<a href="#" class="submenu-link">牙刷/牙线</a>
+												<a href="#" class="submenu-link">刷头</a>
+												<a href="#" class="submenu-link">漱口水</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">女性用品</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">卫生巾</a>
+												<a href="#" class="submenu-link">卫生棉条</a>
+												<a href="#" class="submenu-link">卫生护垫</a>
+												<a href="#" class="submenu-link">私密洗液/湿巾</a>
+												<a href="#" class="submenu-link">脱毛</a>
+											</dd>
+										</dl>
+									</div>
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">清洁用品</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">驱虫用品</a>
+												<a href="#" class="submenu-link">洗手液</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="sub-side">
+									<a href="#" class="single">
+										<img src="/img/gehu170314.jpg ">
+									</a>
+									<div class="trademark">
+										<h3 class="trademark-title">
+											<i class="line-left"></i>
+											<i class="line-right"></i>
+											<span>热门品牌</span>
+										</h3>
+										<div class="trademark-list">
+											<a href="#">
+												<img src="/img/GRHL_01160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/GRHL_02160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/GRHL_03170314.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/GRHL_04170314.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/GRHL_05170314.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/GRHL_06170314.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="parent">
+							<div class="p-menu">
+								<h2 class="jjcw">
+									<i class="icon icon-jjcw"></i>
+									<a href="#">家居厨卫</a>
+								</h2>
+								<ul class="child">
+									<li class="dib"><a href="#">精品梳</a></li>
+									<li class="dib"><a href="#">滤水壶</a></li>
+									<li class="dib"><a href="#">清洁用品</a></li>
+								</ul>
+							</div>
+							<div class="hidepop">
+								<div class="submenu-list">
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">厨房用品</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">其他厨具</a>
+												<a href="#" class="submenu-link">滤水壶/滤芯</a>
+												<a href="#" class="submenu-link">水壶茶具</a>
+												<a href="#" class="submenu-link">清洁用品</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">空气净化</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">空气净化器</a>
+												<a href="#" class="submenu-link">空气清新剂</a>
+											</dd>
+										</dl>
+									</div>
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">卧室用品</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">精品梳</a>
+												<a href="#" class="submenu-link">香薰/蜡烛</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="sub-side">
+									<a href="#" class="single">
+										<img src="/img/chuwei170314.jpg ">
+									</a>
+									<div class="trademark">
+										<h3 class="trademark-title">
+											<i class="line-left"></i>
+											<i class="line-right"></i>
+											<span>热门品牌</span>
+										</h3>
+										<div class="trademark-list">
+											<a href="#">
+												<img src="/img/JJCW_01160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/JJCW_02160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/JJCW_03170314.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/JJCW_04170314.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/JJCW_05170314.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/JJCW_06170314.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="parent">
+							<div class="p-menu">
+								<h2 class="spjx">
+									<i class="icon icon-spjx"></i>
+									<a href="#">食品精选</a>
+								</h2>
+								<ul class="child">
+									<li class="dib"><a href="#">功能茶</a></li>
+									<li class="dib"><a href="#">果泥果汁</a></li>
+									<li class="dib"><a href="#">营养代餐</a></li>
+								</ul>
+							</div>
+							<div class="hidepop">
+								<div class="submenu-list">
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">茶</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">花茶/果茶</a>
+												<a href="#" class="submenu-link">保健功能茶</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">咖啡</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">咖啡豆</a>
+											</dd>
+										</dl>
+									</div>
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">营养早餐</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">麦片</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">零食</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">巧克力</a>
+												<a href="#" class="submenu-link">果泥/果汁</a>
+												<a href="#" class="submenu-link">糖果</a>
+											</dd>
+										</dl>
+									</div>
+									<div class="submenu-itemwrap">
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">营养代餐</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">巧克力</a>
+												<a href="#" class="submenu-link">奶昔</a>
+											</dd>
+										</dl>
+										<dl class="submenu-item">
+											<dt><a href="#" class="sub-link">蜂蜜</a></dt>
+											<dd class="clearfix">
+												<a href="#" class="submenu-link">上好蜂蜜</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div class="sub-side">
+									<a href="#" class="single">
+										<img src="/img/shipin170314.jpg ">
+									</a>
+									<div class="trademark">
+										<h3 class="trademark-title">
+											<i class="line-left"></i>
+											<i class="line-right"></i>
+											<span>热门品牌</span>
+										</h3>
+										<div class="trademark-list">
+											<a href="#">
+												<img src="/img/SPJX_01160513.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/SPJX_02170314.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/SPJX_03170314.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/SPJX_04170314.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/SPJX_05170314.jpg">
+											</a>
+											<a href="#">
+												<img src="/img/SPJX_06170314.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="parent">
+							<div class="p-menu">
+								<h2 class="etwj">
+									<i class="icon icon-etwj"></i>
+									<a href="#">儿童玩具</a>
+								</h2>
+								<ul class="child">
+									<li class="dib"><a href="#">毛绒玩具</a></li>
+								</ul>
+							</div>
+							<div class="hidepop">
+								<div class="submenu-list"></div>
+								<div class="sub-side"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<ul id="nav"></ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer"></div>	
+</body>
+</html>
